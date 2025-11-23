@@ -416,3 +416,70 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# === Archivos de compilación ===
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+*.log
+
+# === Configuración del IDE ===
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# === Archivos temporales ===
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
+# === Sistema operativo ===
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# === Copias de seguridad o cache ===
+_ReSharper*/
+*.DotSettings.user
+*.cache
+
+# === Configuración local ===
+*.local.json
+*.launchSettings.json
+
+# === Paquetes NuGet ===
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+
+# === Publicaciones ===
+publish/
+*.publish.xml
+
+# === Pruebas ===
+TestResult*/
+*.coverage
+*.coveragexml
+
+# === MonoGame específico ===
+# Archivos binarios generados por el Content Pipeline
+Content/bin/
+Content/obj/
+*.xnb
+
+# Si usas MGCB Editor, también ignora la caché
+*.mgcb.cache
+
+# === Configuración local de MonoGame Pipeline Tool ===
+*.mgcb.tmp
+*.mgcb.user
