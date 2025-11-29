@@ -7,11 +7,7 @@ namespace Galacta_Tec.Core
 {
     enum Patrones
     {
-        LineaRecta,
-        ZigZagHorizontal,
-        ZigZagVertical,
-        Sinusoidal,
-        Circular, 
+        
     }
     public class Nivel
     {
